@@ -1,0 +1,14 @@
+Hata Matrisi
+65 3 
+7 25 
+---------------------------------------------------------------------------------------
+GaussNB 65 + 25 = 90 Doğru 
+7 + 3 = 10 yanlış 
+Doğruluk oranı = 0.9
+
+65 = Satın alanlar ==> True Positive(TP)
+25 = Satın almayanlar==> False Positive(FP)
+
+3 = Satın alıpta almayan olarak sınıflandırma sonucu hata ==>False Negative(FN)
+7  = Satın almayıpta alan olarak sınıflandırma sonucu hata ==> True Negative(TN)
+----------------------------------------------------------------------------------------
